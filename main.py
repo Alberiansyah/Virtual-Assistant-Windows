@@ -139,7 +139,7 @@ class SpeechRecognitionApp:
             os.system("start ms-settings:")
         elif "buka paint" in command:
             os.system("start mspaint")
-        elif "buka This pc" in command:
+        elif "buka this pc" in command:
             os.system("explorer %SystemDrive%")
         elif "buka recycle bin" in command:
             os.system("explorer %SystemDrive%\$Recycle.Bin")
